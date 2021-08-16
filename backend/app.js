@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()
 var cors = require('cors')
 
-const port = 3005
+const port = process.env.PORT || 3005
 
 app.use(cors())
 
@@ -62,11 +62,3 @@ module.exports = {
   basicElectricityTariff: basicElectricityTariff,
   packagedTariff: packagedTariff
 }
-
-
-
-//exports.app = app;
-//exports.basicElectricityTariff = basicElectricityTariff;
-//exports.packagedTariff = packagedTariff;
-
-

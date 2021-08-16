@@ -4,6 +4,7 @@
   "description": "interviewtask",
   "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "mocha"
   },
   "author": "",
